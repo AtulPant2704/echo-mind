@@ -5,7 +5,7 @@ import "./App.css";
 import "@zoom/videosdk-ui-toolkit/dist/videosdk-ui-toolkit.css";
 import { AudioRecorder, useAudioRecorder } from "react-audio-voice-recorder";
 import { useRef } from "react";
-import { getAudioTranscript } from "./services";
+// import { getAudioTranscript } from "./services";
 
 function App() {
   let sessionContainer: HTMLDivElement | null = null;
